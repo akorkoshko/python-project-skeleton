@@ -8,7 +8,8 @@ class SimpleClass():
     def __init__(self, config_file):
 
         self.config = self.load_config(config_file)
-
+        a=0
+        a=+3
         # DO this once, in the top level class.
         logging.config.dictConfig(self.config['logging'])
 
